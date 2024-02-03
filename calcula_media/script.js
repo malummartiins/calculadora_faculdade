@@ -15,7 +15,7 @@ function verificarNota(){
 
     let valorFinal = ((valorGA * 0.3) + (valorGB * 0.7));  //calculo da média da faculdade
 
-    if ( valorFinal >= 6){
+    if ( valorFinal >= 6 - 0.000001){
         mensagem('h1','Aprovado!');
         mensagem('p', `Sua nota final é: ${valorFinal.toFixed(2)}`);  //tofixes para deixar apenas duas casas decimais
     }else{
