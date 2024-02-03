@@ -8,6 +8,8 @@ sabendo que a *média da Unisinos para passar é 6 pontos* voce apenas precisa c
 sua nota final nos campos de GA e GB respectivamente e já ver na tela se foi aprovado
 ou reprovado.
 
+## Para ver funcionando e também utilizar:
+https://media-faculdade-sand.vercel.app/
 
 
 https://github.com/malummartiins/calculadora_faculdade/assets/130713333/a8d9dfdd-2eba-4be2-95b9-5e8262b44fb5
