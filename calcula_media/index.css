@@ -1,0 +1,151 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body {
+    background: linear-gradient(#1354A5 0%, #041832 33.33%, #041832 66.67%, #01080E 100%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body::before {
+    background-image: url("img/code.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+}
+
+.container {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 24px;
+    border: 1px solid #1875E8;
+    box-shadow: 4px 4px 20px 0px rgba(1, 8, 14, 0.15);
+    background-image: url("img/Ruido.png");
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.container__conteudo {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+}
+
+.container__infos{
+    flex: 1;
+    padding: 5rem;
+    
+}
+
+.container__texto {
+    margin: 16px 0px 16px 0px;
+    
+}
+
+.container__texto-azul {
+    color: #1875E8;
+}
+
+
+
+.g1__texto ,
+.g2__texto{
+    font-family: 'Inter', sans-serif;
+    color: #1875E8;
+    font-weight: 700;
+}
+
+.g1, 
+.g2{
+    margin-bottom: 1em;
+    margin-top: 0.5em;
+
+}
+
+
+
+.container__input {
+    width: 190px;
+    height: 55px;
+    border-radius: 16px;
+    background-color: #FFF;
+    border: none;
+    color: #1875E8;
+    padding: 2rem;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+.container__botoes {
+    display: flex;
+    gap: 2em;
+    
+}
+
+.container__botao{
+    color:#041832;
+    font-weight: 700;
+    padding: 1em;
+    border-radius: 0.5em;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.limpar{
+    margin-right: 10%;
+}
+
+.container__botao:hover{
+    background-color: #041832;
+    color: white;
+}
+
+h1 {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 48px; 
+    padding-bottom: 1.5rem;
+    
+}
+
+p,
+button {
+    font-family: 'Inter', sans-serif;
+}
+
+.texto__paragrafo {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.3em;
+    margin-bottom: 0.2em;
+}
+
+.container__imagemfoguete{    /*Para a img nao se mexer coloquei fora do container infos*/
+    width: 410px;
+    height: 410px;
+    border-radius: 50%;
+    margin-top: 4em;
+    position: absolute;
+    left: 57%;
+    top: 5%;
+
+}
+
+

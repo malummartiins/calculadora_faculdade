@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=C, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Inter:wght@400;700&display=swap"
+        rel="stylesheet">
+        <link rel="shortcut icon" href="./img/graduation-hat.png" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+    <title>Calculadora</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="container__conteudo">
+            <div class="container__infos">
+                <div class="container__texto">
+                    <h1 class="texto__principal">Chegou a hora mais</br> temida do semestre!</h1>
+                    <p class="texto__paragrafo"> - GA representa 30% da nota </br> - GB representa 70% da nota</p>
+                </div>
+                <div class ="g1">
+                    <h2 class="g1__texto">GA</h2>
+                    <input type="number" id ="inputGA"class="container__input">
+                 </div>
+
+                 <div class ="g2">
+                    <h2 class="g2__texto">GB</h2>
+                    <input type="number" id="inputGB" class= "container__input">
+                 </div>
+                
+                
+                <div class="calcular container__botoes">
+                    <button onclick="verificarNota()" class="container__botao">Calcular</button>
+                    <button onclick="limparTela()" id="reiniciar" class="container__botao limpar" >Limpar</button>
+                </div>
+            </div>
+    
+            
+        </div>
+        <img src="./img/foguete-voar-atraves-do-espaco.jpg" class="container__imagemfoguete">
+    </div>
+   
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
